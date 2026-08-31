@@ -247,7 +247,7 @@ export default function IntegrationsPage() {
                 </button>
               </div>
               <div className="p-6 overflow-x-auto text-sm font-mono text-gray-300">
-                <pre><code><span className="text-gray-500">&lt;!-- Load Vegavan Engine --&gt;</span>{'\n'}<span className="text-blue-400">&lt;script</span>{'\n'}  <span className="text-yellow-300">src</span><span className="text-white">=</span><span className="text-green-400">"https://vegavan-backend.vercel.app/chatbot.js"</span>{'\n'}  <span className="text-yellow-300">data-user-id</span><span className="text-white">=</span><span className="text-green-400">"69fc5bbe69d61b8cd4efd91a"</span>{'\n'}<span className="text-blue-400">&gt;&lt;/script&gt;</span></code></pre>
+                <pre><code><span className="text-gray-500">&lt;!-- Load Vegavan Engine --&gt;</span>{'\n'}<span className="text-blue-400">&lt;script</span>{'\n'}  <span className="text-yellow-300">src</span><span className="text-white">=</span><span className="text-green-400">"https://chatbot.webfloratechnologies.com/chatbot.js"</span>{'\n'}  <span className="text-yellow-300">data-user-id</span><span className="text-white">=</span><span className="text-green-400">"69fc5bbe69d61b8cd4efd91a"</span>{'\n'}<span className="text-blue-400">&gt;&lt;/script&gt;</span></code></pre>
               </div>
             </div>
           </div>
