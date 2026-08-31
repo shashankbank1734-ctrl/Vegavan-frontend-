@@ -431,7 +431,7 @@ export default function Home() {
                      <code>
                        <span className="text-gray-400">&lt;!-- Vegavan Integration --&gt;</span><br/>
                        <span className="text-primary">&lt;script</span><br/>
-                       &nbsp;&nbsp;src=<span className="text-green-600">"https://vegavan.ai/embed.js"</span><br/>
+                       &nbsp;&nbsp;src=<span className="text-green-600">"https://chatbot.webfloratechnologies.com/embed.js"</span><br/>
                        &nbsp;&nbsp;data-id=<span className="text-green-600">"your-unique-id"</span><br/>
                        <span className="text-primary">&gt;&lt;/script&gt;</span>
                      </code>

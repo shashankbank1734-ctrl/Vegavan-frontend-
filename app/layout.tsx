@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Vegavan AI | Data-driven AI Chatbot",
     description: "Help, convert, and sell with a data-driven AI chatbot.",
-    url: "https://vegavan-ai.com",
+    url: "https://chatbot.webfloratechnologies.com",
     siteName: "Vegavan AI",
     images: [
       {
