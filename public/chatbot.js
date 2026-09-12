@@ -21,14 +21,14 @@
 
   // 2. Define configurations & api hosts dynamically based on the script's src URL
   const scriptSrc = scriptTag ? (scriptTag.getAttribute('src') || '') : '';
-  let API_HOST = 'https://vegavan-backend.vercel.app';
+  let API_HOST = 'https://vegavan-backend-mu.vercel.app';
   if (scriptSrc && (scriptSrc.startsWith('http://') || scriptSrc.startsWith('https://'))) {
     try {
       const url = new URL(scriptSrc);
       if (url.hostname === 'localhost') {
         API_HOST = 'http://localhost:5000';
       } else if (url.hostname === 'chatbot.webfloratechnologies.com') {
-        API_HOST = 'https://vegavan-backend.vercel.app';
+        API_HOST = 'https://vegavan-backend-mu.vercel.app';
       } else {
         API_HOST = url.origin;
       }

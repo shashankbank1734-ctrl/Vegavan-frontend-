@@ -54,7 +54,7 @@ export default function Login() {
         const isLocal = typeof window !== 'undefined' && window.location.hostname === 'localhost';
         setError(isLocal
           ? 'Connection Failed: Cannot establish contact with the backend. Please ensure your Node server is running on http://localhost:5000 (check your backend VS Code terminal).'
-          : 'Connection Failed: Cannot establish contact with the backend service at https://vegavan-backend.vercel.app. Please verify that the server is online.');
+          : 'Connection Failed: Cannot establish contact with the backend service at https://vegavan-backend-mu.vercel.app. Please verify that the server is online.');
       } else {
         setError(err.message || 'An unexpected connection issue occurred. Please try again.');
       }
