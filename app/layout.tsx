@@ -36,7 +36,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className="antialiased min-h-screen flex flex-col bg-background selection:bg-primary/20 selection:text-primary">
+      <body
+        suppressHydrationWarning
+        className="antialiased min-h-screen flex flex-col bg-background selection:bg-primary/20 selection:text-primary"
+      >
         <Navbar />
         <div className="flex-1 flex flex-col">
           {children}
